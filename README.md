@@ -1,2 +1,3 @@
 The time complexity of the code is O(n^2) because we have the first iteration across the entire array but in the worst case we have to iterate over the entire array again to find the correct position to insert. 
 The space complexity of the code is T(1) because the space that the algorithm takes up is constant regardless of the size of the input array as there will always be the same number of variables. 
+Recursion is when the function calls itself within the function to find solution to a larger problem by finding the solutions to the smaller subproblems of the same problem. This is useful for problems where the final answer is dictated by the smaller problems that make up the larger problem (i.e calculating the nth Fibonacci sequence)
