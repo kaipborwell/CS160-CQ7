@@ -1,1 +1,2 @@
-# CS160-CQ7
+The time complexity of the code is O(n^2) because we have the first iteration across the entire array but in the worst case we have to iterate over the entire array again to find the correct position to insert. 
+The space complexity of the code is T(1) because the space that the algorithm takes up is constant regardless of the size of the input array as there will always be the same number of variables. 
